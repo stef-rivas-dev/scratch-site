@@ -1,0 +1,29 @@
+html {
+	font-family: 'Merriweather', serif;
+	background-color: whitesmoke;
+}
+
+img {
+	border:1px solid #021a40;
+	display: block;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+
+.img-sm {
+	width: 20%;
+	height: 20%;
+	max-width: 250px;
+	max-height: 2300px;
+}
+
+.img-md {
+	width: 40%;
+	height: 40%;
+	max-width: 600px;
+	max-height: 450px;
+}
