@@ -12,8 +12,8 @@
 </head>
 <body>
 	<h1>Stefan Rivas</h1>
-	<?= $content->something; ?>
-	<img class="img-md" src="images/travel/facing_queenstown_ben_lommond.jpg" alt="Me standing towards Queenstown on the Ben Lommond Summit" title="Me standing towards Queenstown on the Ben Lommond Summit">
+	<?= $content->navigationBar ?>
+	<img class="img-md" src="../images/travel/facing_queenstown_ben_lommond.jpg" alt="Me standing towards Queenstown on the Ben Lommond Summit" title="Me standing towards Queenstown on the Ben Lommond Summit">
 	<div id="bio"></div>
 	<p>Life has been good to me in many ways:</p>
 	<ul>
