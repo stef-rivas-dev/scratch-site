@@ -40,11 +40,3 @@ function auto_loader($class) {
 	var_dump($class);
 	echo "<br/>";
 }
-
-spl_autoload_register("auto_loader");
-
-// $obj = new \Something\Other\LoadTest();
-
- $prefix = trim("Foo\Bar", '\\') . '\\';
-
- var_dump(strpos("bbbabba", "a"));
