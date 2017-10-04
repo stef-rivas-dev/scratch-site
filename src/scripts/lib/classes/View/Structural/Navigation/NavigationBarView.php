@@ -1,8 +1,10 @@
 <?php
 
-namespace Structures\Navigation;
+namespace View\Structural\Navigation;
 
-class NavigationBar implements IRenderable {
+use View\Structural\IView;
+
+class NavigationBarView implements IView {
 
 	/**
 	 * @var int
@@ -24,13 +26,13 @@ class NavigationBar implements IRenderable {
 
 	public function setNavLinks() {}
 
-	public function addNavLink(IRenderable $navLink) {
-		if ($navLink instanceof IRenderable) {
+	public function addNavLink(IView $navLink) {
+		if ($navLink instanceof IView) {
 			array_push($this->navLinks, $navLink);
 		}
 	}
 
-	public function removeNavLink(IRenderable $navLink) {}
+	public function removeNavLink(IView $navLink) {}
 
 	public function render() {
 		$navLinksRender = "";
