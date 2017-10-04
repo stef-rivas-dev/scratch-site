@@ -1,8 +1,8 @@
 <?php
 
-namespace Controllers;
+namespace Controller;
 
-use Structures\Navigation;
+use View\Structural\Navigation;
 
 class MainController {
 

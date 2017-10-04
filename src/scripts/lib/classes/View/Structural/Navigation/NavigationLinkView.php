@@ -1,8 +1,10 @@
 <?php
 
-namespace Structures\Navigation;
+namespace View\Structural\Navigation;
 
-class NavigationLink implements IRenderable {
+use View\Structural\IView;
+
+class NavigationLinkView implements IView {
 
 	/**
 	 * @var string
@@ -14,7 +16,7 @@ class NavigationLink implements IRenderable {
 	 */
 	private $destination;
 
-	public function __construct($text, $dest) {
+	public function __construct($text = '', $dest = '') {
 		$this->text = $text;
 		$this->destination = $dest;
 	}
